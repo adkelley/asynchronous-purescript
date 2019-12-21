@@ -1,0 +1,26 @@
+#+OPTIONS: toc:nil
+
+* Asynchronous PureScript
+The modules /Aysnc/, /Basics/, /Fork/, /Parallel/, /Stack/, and /Sync/ demonstrate the ability to work with asynchronous effects.  They are copied directly from Drew Olson's blog post, [[https://blog.drewolson.org/asynchronous-purescript][Asynchronous Purescript]].  
+Please read his blog post for further information.
+
+** Installation
+Install [[https://www.npmjs.com/package/purescript][purescript]] and [[https://www.npmjs.com/package/spago][spago]] locally using yarn or npm:
+#+BEGIN_SRC bash
+yarn install
+#+END_SRC
+
+** Running these modules
+After you have installed purescript and spago (see above).  You can run each of the modules with the following command, where /name_of_module/ is the name of one of the modules 
+given above (e.g., /Fork/):
+
+#+BEGIN_SRC bash
+$ yarn spago run name_of_module
+#+END_SRC
+
+If you want to time a module:
+
+#+BEGIN_SRC bash
+$ yarn spago bundle-app name_of_module
+$ time node index.js
+#+END_SRC
