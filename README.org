@@ -1,8 +1,7 @@
 #+OPTIONS: toc:nil
 
 * Asynchronous PureScript
-The modules /Aysnc/, /Basics/, /Fork/, /Parallel/, /Stack/, and /Sync/ demonstrate the ability to work with asynchronous effects.  They are copied directly from Drew Olson's blog post, [[https://blog.drewolson.org/asynchronous-purescript][Asynchronous Purescript]].  
-Please read his blog post for further information.
+The modules /Aysnc/, /Basics/, /Fork/, /Parallel/, /Stack/, and /Sync/ demonstrate the ability to work with asynchronous effects.  They are copied directly from Drew Olson's blog post, [[https://blog.drewolson.org/asynchronous-purescript][Asynchronous Purescript]].  Please read his blog post for further information.
 
 ** Installation
 Install [[https://www.npmjs.com/package/purescript][purescript]] and [[https://www.npmjs.com/package/spago][spago]] locally using yarn or npm:
