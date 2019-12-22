@@ -1,7 +1,14 @@
 {
+  "scripts": {
+    "postinstall": "spago install",
+    "build": "spago build",
+    "clean": "rm -rf node_modules output .spago dist/* *.lock",
+    "bundle": "spago bundle-app -m "
+
+  },
   "devDependencies": {
     "purescript": "^0.13.5",
     "spago": "^0.13.0"
   },
-  "version": "0.0.0"
+  "version": "0.1.0"
 }

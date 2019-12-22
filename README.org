@@ -18,9 +18,11 @@ given above (e.g., /Fork/):
 $ yarn spago run name_of_module
 #+END_SRC
 
-If you want to time a module:
+More likely, you will want to time a module for comparison.  In this case, use the script /bundle/ from the /package.json/ file. Note that there are additional scripts you may wish to take advantage of as well.
 
 #+BEGIN_SRC bash
-$ yarn spago bundle-app name_of_module
+$ yarn bundle name_of_module
 $ time node index.js
 #+END_SRC
+
+
