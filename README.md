@@ -2,8 +2,7 @@
 
 # Asynchronous PureScript
 
-The modules *Aysnc*, *Basics*, *Fork*, *Parallel*, *Stack*, and *Sync* demonstrate the ability to work with asynchronous effects.  They are copied directly from Drew Olson's blog post, [Asynchronous Purescript](https://blog.drewolson.org/asynchronous-purescript).  
-Please read his blog post for further information.
+The modules *Aysnc*, *Basics*, *Fork*, *Parallel*, *Stack*, and *Sync* demonstrate the ability to work with asynchronous effects.  They are copied directly from Drew Olson's blog post, [Asynchronous Purescript](https://blog.drewolson.org/asynchronous-purescript).  Please read his blog post for further information.
 
 
 ## Installation
@@ -20,8 +19,8 @@ given above (e.g., *Fork*):
 
     $ yarn spago run name_of_module
 
-If you want to time a module:
+More likely, you will want to time a module for comparison.  In this case, use the script *bundle* from the *package.json* file. Note that there are additional scripts you may wish to take advantage of as well.
 
-    $ yarn spago bundle-app name_of_module
+    $ yarn bundle name_of_module
     $ time node index.js
 
